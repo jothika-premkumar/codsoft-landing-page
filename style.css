@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+section{
+  min-height: 42rem;
+  background-image: url("head\ img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container{
+  width:90%;
+  margin:auto;
+}
+nav{
+  height: 80px;
+}
+nav h1{
+  float: left;
+  line-height: 80px;
+  font-size: 30px;
+  font-size: inline;
+  color: aqua;
+}
+nav ul{
+  float: right;
+  line-height: 80px;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding:0px 5px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform:uppercase;
+  border-radius: 10px;
+  box-shadow: red;
+}
+nav ul li a:hover{
+  background-color: red;
+  transition: 0.5s ease;
+}
+
+.article{
+  width: 50%;
+  margin:auto;
+  text-align: center;
+  
+}
+.article h1{
+  top: 50%;
+  font-size: 36px;
+  color: aqua;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+.article p{
+  font-size: 18px;
+  color:#fff;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.article .btn{
+  color:#fff;
+  padding:12px 25px;
+  letter-spacing: 1.5px;
+  text-transform:uppercase;
+  text-decoration: none;
+  background-color: #f15048;
+  padding-bottom: 10px;
+}
+.article .btn:hover{
+  background-color: #fd0000;
+  color:#f15048;
+  transition: 0.5s ease;
+}
+
+.logo{
+	background-image: url("logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 80px;
+	justify-content: center;
+}
+
+#skills{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 42rem;
+  background-image: url("section1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center
+;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border: 1px solid rgb(90, 158, 248);
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0, 255, 242, 0.425));
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+.box:hover{
+  background-position: right bottom;
+  color: black;
+  border: rgb(0, 102, 255);
+  box-shadow: 0 0 20px rgb(0, 102, 255);
+}
+
+.box img{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  padding: 10px;
+}
+
+.headings{
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+body {
+	background: black;
+}
+
+h1 {
+	
+	text-align: center;
+	font-size: 60px;
+	font-family: 'century gothic';
+	color: #ffffcc;
+	text-shadow: 0 0 5px #fff,
+		0 0 10px #fff,
+		0 0 20px blue,
+		0 0 30px blue,
+		0 0 40px gold,
+		0 0 55px blue,
+		0 0 70px gold;
+}
+
+h2 {
+	text-align: center;
+	font-size: 60px;
+	font-family: 'century gothic';
+	color: #ffffcc;
+	text-shadow: 0 0 5px #fff,
+		0 0 10px #fff,
+		0 0 20px red,
+		0 0 30px gold,
+		0 0 40px red,
+		0 0 55px gold,
+		0 0 70px red;
+}
+
+.btn{
+  color:#fff;
+  padding:12px 25px;
+  letter-spacing: 1.5px;
+  text-transform:uppercase;
+  text-decoration: none;
+  background-color: #f15048;
+  display: inline-block;
+  
+  
+}
+.btn:hover{
+  background-color: #fd0000;
+  color:white;
+  transition: 0.5s ease;
+}
+
+.nav_btn{
+  color:black;
+  padding:12px 25px;
+  letter-spacing: 1.5px;
+  text-transform:uppercase;
+  text-decoration: none;
+  background-color: white;
+  display: inline-block;
+  
+  
+}
+.nav_btn:hover{
+  background-color: black;
+  color:white;
+  transition: 0.5s ease;
+}
